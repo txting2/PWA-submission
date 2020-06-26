@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel='stylesheet' href="style.css">
+    <title>Xin Ting's Resume</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#"><img src="new_icons/XT-logo-72x72.jpg" style="width:50px; margin: 5px"> My
+            Resume</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse navbar-expand-sm bg-light navbar-light " id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Work experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Skills</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div style="background-color: #ffffff;"><img src="new_icons/XT-logo-72x72.jpg" style="width:50px; margin: 5px"> My
+        Resume</div>
+    <div id="container-fluid">
+
+        <div>
+            <h3>About me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut accumsan quam, et viverra magna.
+                Vestibulum vitae aliquam neque. Nunc pretium nulla ac vehicula tincidunt. Nulla nunc risus, varius
+                bibendum purus vitae, semper euismod lorem. Praesent convallis dui ut libero volutpat ultricies. Donec
+                et felis tincidunt ipsum lobortis molestie eget vel erat. Cras non eros ac arcu malesuada rutrum id sed
+                risus. In rhoncus vulputate elit, eget congue nisl ultricies in.</p>
+        </div>
+
+        <div>
+            <h3>Personal Details</h3>
+            <p><span class="bold">Name:</span> Tan Xin Ting</p>
+            <p><span class="bold">Email:</span> e0201335@u.nus.edu</p>
+            <p><span class="bold">Contact number:</span> +65 12345678</p>
+        </div>
+
+        <div id="overallCont">
+            <div style="margin-right: 15px">
+                <h3>Work experience</h3>
+                <div class="outerContainer">
+                    <div class="innerContainer">
+                        <h4>TADA Medical AB</h4>
+                        <h4 class="work-date">FEB 2019 - JUNE 2019</h4>
+                    </div>
+                    <button id="tada-btn" class="button">Show More</button>
+                </div>
+                <div id="tada-text" style="width: 400px"></div>
+
+                <div class="outerContainer">
+                    <div class="innerContainer">
+                        <h4>Keyframe</h4>
+                        <h4 class="work-date">FEB 2019 - JUNE 2019</h4>
+                    </div>
+                    <button class="button" id="kf-btn">Show More</button>
+                </div>
+                <div id="keyframe-text" style="width: 400px" class="hidden"> 
+                <ul> 
+                    <li>Worked alongside with the co-founder to brainstorm of ways to engage community building</li>
+                    <li>Responsible for initiating beta-testing for the web application</li>
+                    <li>Building B2B database and improving the processes of the company</li>
+                </ul></div>
+            </div>
+
+            <div style="margin-right: 15px">
+                <h3>Education</h3>
+                <div class="outerContainer">
+                    <h5>National University of Singapore</h5>
+                    <button class="button">Show more</button>
+                </div>
+                <div class="outerContainer">
+                    <h5>Saint Andrew's Junior College</h5>
+                    <button class="button">Show more</button>
+                </div>
+                <div class="outerContainer">
+                    <h5>Kranji Secondary School</h5>
+                    <button class="button">Show more</button>
+                </div>
+            </div>
+
+            <div style="margin-right: 15px">
+                <h3>Skills</h3>
+
+                <div class='classContainer'>
+                    <h4>Office Productivity</h4>
+                    <button class="button">Show more</button>
+                </div>
+
+                <div class='classContainer'>
+                    <h4>Adobe programmes</h4>
+                    <button class="button">Show more</button>
+                </div>
+
+                <div class='classContainer'>
+                    <h4>Mechanical design</h4>
+                    <button class="button">Show more</button>
+                </div>
+
+                <div class='classContainer'>
+                    <h4>Web/programming</h4>
+                    <button class="button">Show more</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"
+            integrity="sha256-bd8XIKzrtyJ1O5Sh3Xp3GiuMIzWC42ZekvrMMD4GxRg=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
