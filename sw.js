@@ -7,7 +7,7 @@ let filesToCache = [
 'index.html',
 'linkedin.png',
 'manifest.json',
-'registerServiceWorker.json',
+'registerServiceWorker.js',
 'script.js',
 'style.css'
 ]
