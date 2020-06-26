@@ -1,21 +1,15 @@
 // the cache name is also the version number
 // change the name everytime changes are made
-let cacheName = 'wad-day-7-01';
+let cacheName = 'xinting-pwa-submission';
 // let caches;
 let filesToCache = [
-'bird.jpg',
-'data.txt',
-'gallery.html',
-'gallery.json',
+'facebook.png',
 'index.html',
-'mona-lisa.jpg',
-'package-lock.json',
-'pikachu.png',
-'registerServiceWorker.js',
-'script.js',
-'starry.jpg',
+'linkedin.png',
 'manifest.json',
-'style.css',
+'registerServiceWorker.json',
+'script.js',
+'style.css'
 ]
 
 /* 

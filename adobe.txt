@@ -1,6 +1,0 @@
-<ul>
-<li>Photoshop</li>
-<li>Premiere pro</li>
-<li>Illustrator</li>
-<li>Lightroom</li>
-</ul>
