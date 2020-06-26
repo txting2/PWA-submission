@@ -16,9 +16,6 @@ let s2Text = document.querySelector('#skill2-text');
 let s3Text = document.querySelector('#skill3-text');
 let s4Text = document.querySelector('#skill4-text');
 
-console.log("123");
-
-
 tadaBtn.addEventListener('click', function () {
     if (tadaBtn.innerHTML === "Show More") {
         tadaText.classList.remove('hidden');

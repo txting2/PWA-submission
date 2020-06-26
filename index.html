@@ -5,7 +5,18 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- This is to allow the browser to recognise this as progressive webapp-->
+	<link rel="manifest" href="manifest.json">
 
+	<!-- For the progressive web app icon -->
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="new_icons/XT-icon-152x152.jpg">
+	<meta name="theme-color" content="white" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Hello World">
+	<meta name="msapplication-TileImage" content="new_icons/XT-icon-144x144.jpg">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -171,7 +182,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+            <script src="registerServiceWorker.js"></script>
+            <script src="script.js"></script>
+
 </body>
 
 </html>
