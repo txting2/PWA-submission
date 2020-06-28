@@ -9,7 +9,9 @@ let filesToCache = [
 'manifest.json',
 'registerServiceWorker.js',
 'script.js',
-'style.css'
+'style.css',
+'email.png',
+'picture.JPG'
 ]
 
 /* 

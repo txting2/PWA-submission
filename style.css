@@ -1,6 +1,16 @@
+html, body {
+height: 100%    
+}
+
+#holder{
+    min-height: 100%;
+    position: relative;
+}
+
 body{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 background-color: #f8f9fa;
+
 }
 
 ul {
@@ -9,6 +19,7 @@ ul {
 #header {
     background-color: #FFFFFF;
     font-size: 25px;
+    width: 100%;
 }
 
 h2 {
@@ -19,15 +30,11 @@ h2 {
     margin-top: 30px;
 }
 
-.bold {
-    font-weight: bold;
-}
-.bg-light {
-    background-color: #FFFFFF!important;
-}
-
 #container-fluid {
-    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 100px;
 }
 
 #overallCont {
@@ -37,13 +44,22 @@ h2 {
     padding: 25px;
     align-items: flex-start;
 }
+
+#about-me {
+justify-content: flex-start;
+align-items: center;
+}
+
 #footer {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
+    left: 0;
     width:100%;
+    height: 100px;
+    background-color: white;
 }
 .innerContainer {
     /* margin-left: 10px;
@@ -59,13 +75,16 @@ h2 {
     /* margin-left: 10px;
     margin-right: 20px;
     margin-top:10px; */
+    width:100%;
     padding-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-center;
 }
-
+#photo {
+    width: 500px;
+}
 .work-date {
     padding-left: 10px;
     padding-top: 5px;
@@ -87,8 +106,6 @@ h2 {
     border-color: none;
     border: none;
     outline: none;
-    margin-left: 35px;
-    width: 100px;
 }
 
 .button:hover:active{
@@ -112,3 +129,132 @@ h2 {
 .shown {
     display: block;
   } 
+
+#fb-icon {
+    padding-left: 100px;
+}
+
+#linkedin {
+
+    padding-left: 25px;
+}  
+
+#email{
+    padding-left: 25px; 
+    padding-bottom: 0px;
+}
+
+#contact {
+    font-size: 20px;
+}
+
+#workexp {
+    margin-right: 15px
+}
+
+#education {
+    margin-right: 15px;
+}
+
+#skills {
+    margin-right: 15px;
+}
+ @media only screen and (max-width:680px) { 
+    .button {
+        margin-left: 35px;
+        width: 100px;
+    }
+
+    #overallCont {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: left;
+        padding: 0px;
+    }
+
+    #about-me{
+        flex-direction: column;
+    }
+    #container-fluid{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 25px;
+    }
+
+    /* .innerContainer {
+        flex-direction: row;
+    } */
+
+    #footer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width:100%;
+        height: 100px;
+        background-color: skyblue;
+        padding-left: 25px;
+        padding-right: 10px;
+    }
+
+    .classContainer {
+        margin-left: 5px;
+        margin-right: 10px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+        /* margin-top:10px; */
+    }
+
+    .button {
+        margin-left: 20px;
+    }
+
+    #fb-icon {
+        padding-left: 50px;
+
+    }
+
+    #linkedin {
+        padding-left: 2px;
+    }  
+    
+    #email{
+        padding-left: 2px; 
+        padding-bottom: 0px;
+    }
+    #contact {
+        font-size: 15px;
+    }
+
+    #photo {
+        object-fit: fill;
+        justify-content: center;
+    }
+    #workexp  {
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+    #education {
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+    #skills {
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    #tada-btn.button {
+        margin-left: 40px;
+    }
+    #nus-btn.button {
+        margin-left: 100px;
+    }
+    #skill1-btn.button{
+        margin-left: 175px;
+    }
+
+  }
